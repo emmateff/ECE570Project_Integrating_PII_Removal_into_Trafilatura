@@ -1,0 +1,2 @@
+# ECE570Project_Integrating_PII_Removal_into_Trafilatura
+Trafilatura is an open-source generic extraction tool for extracting content from html, developed to build web corpora for training machine learning models. It is crucial to keep specific real PII out of corpora, so the piiranha model for PII detection is used to redact PII from trafilatura's extractions before returning the extracted content.
