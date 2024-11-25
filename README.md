@@ -4,6 +4,6 @@ Trafilatura is an open-source generic extraction tool for extracting content fro
 After selecting Piiranha, its integration into Trafilatura's workflow was achieved via 'Trafilatura_with_PI_protection.ipynb' or 'running_trafi_on_url.py' for examples with a simple user interaction of providing a url for Trafilatura to scrape, process, and return (with PII redacted). Additionally, I provided the file 'pi_detection.py' for inclusion into the real Trafilatura repository (https://github.com/adbar/trafilatura) in the /trafilatura/ directory, which is where other feature related files are location. This file will allow PII removal to be included in Trafilatura. All that needs to be additionally changed is a call to its provided mask_pii() function in the core trafilatura worker.
 
 Steps for running code:
-1. Unzip the govdocssubset files and save them to your google drive.
+1. Unzip the govdocssubset files and save the subdirectories to your google drive at this filepath: /content/drive/My Drive/ECE570/govdocs_testingdata
 2. Download the Testing_ files and run them to witness the evaluation of the models.
-3. The final implementation can be seen in Trafilatura_with_PII_Protection.
+3. The final implementation can be seen in Trafilatura_with_PI_Protection.
